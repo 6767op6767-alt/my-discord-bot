@@ -30,4 +30,4 @@ async def 안녕(ctx):
     await ctx.send(f'안녕하세요, {ctx.author.mention}님!')
 
 # Render의 Environment Variables에 등록한 DISCORD_TOKEN 불러오기
-bot.run(os.getenv('MTU1ODA3ODA4NzA4NDkwMDQwNA.GuStJu.nzItSM00ME-RpTuvXhfkp0GgeSqH0OsiX9lNwc'))
+bot.run('MTU1ODA3ODA4NzA4NDkwNDA0NA.GUSTJu.nzitSM00ME-RpTuvxhfkp0ggeSqH0Osix91Nwc')
