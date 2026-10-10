@@ -30,4 +30,4 @@ async def 안녕(ctx):
     await ctx.send(f'안녕하세요, {ctx.author.mention}님!')
 
 # 봇 실행 (아래 작은따옴표 사이에 디스코드 봇 토큰을 넣어주세요)
-bot.run('MTU1ODA3ODA4NzA4NDkwMDQwNA.GSAHpF.ILHGDmSFP_iGU4Iw0y-zn76fZhdzl9pXndOajo')
+bot.run('MTU1ODA3ODA4NzA4NDkwMDQwNA.G1IyfK.JCQbdIadAs6gXU9DGV6b2T3xBbAPpNEyyNirHw')
