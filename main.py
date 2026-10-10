@@ -29,5 +29,5 @@ async def on_ready():
 async def 안녕(ctx):
     await ctx.send(f'안녕하세요, {ctx.author.mention}님!')
 
-# Render의 Environment Variables에 등록한 DISCORD_TOKEN 불러오기
-bot.run('MTU1ODA3ODA4NzA4NDkwMDQwNA.GOe8At.5iMs4xUPRoZA0Qxb-zeFcwov1vjQm-WI8VpLPg')
+# 봇 실행 (아래 작은따옴표 사이에 디스코드 봇 토큰을 넣어주세요)
+bot.run('MTU1ODA3ODA4NzA4NDkwMDQwNA.GSAHpF.ILHGDmSFP_iGU4Iw0y-zn76fZhdzl9pXndOajo')
