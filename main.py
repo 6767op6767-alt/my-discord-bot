@@ -4,7 +4,7 @@ from discord.ext import commands
 from flask import Flask
 from threading import Thread
 
-# Flask 웹 서버 설정 (Render 포트 바인딩용)
+# Flask 웹 서버 설정
 app = Flask('')
 @app.route('/')
 def home():
@@ -29,6 +29,5 @@ async def on_ready():
 async def 안녕(ctx):
     await ctx.send(f'안녕하세요, {ctx.author.mention}님!')
 
-# Render Environment에 등록된 토큰을 불러와 실행
-TOKEN = os.environ.get('DISCORD_TOKEN')
-bot.run(TOKEN)
+# 디스코드 봇 실행
+bot.run('MTU1ODA3ODA4NzA4NDkwMDQwNA.GNTLS2.0u4PjiRb0FynwiU-jfydlTg0eijUQo-ykJfPAs')
